@@ -4,7 +4,7 @@ Stanford CS224n assignment3.
 
 There are three parts to this assignment 
 
-1. A window into NER <font color="green"> Implemented </font>
+1. A window into NER <p style='color:red'>Implemented</p>
 
 2. Recurrent neural nets for NER
 
