@@ -5,19 +5,20 @@ categories such as the names of persons, organizations, locations, expressions o
 values, percentages, etc. In the assignment, for a given a word in a context, we want to predict whether it
 represents one of four categories:
 
-Person (PER): e.g. \Martha Stewart", \Obama", \Tim Wagner", etc. Pronouns like \he" or \she" are
+Person (PER): e.g. Martha Stewart", Obama", Tim Wagner", etc. Pronouns like he" or she" are
 not considered named entities.
 
-Organization (ORG): e.g. \American Airlines", \Goldman Sachs", \Department of Defense".
+Organization (ORG): e.g. American Airlines", Goldman Sachs", Department of Defense".
 
 
-Location (LOC): e.g. \Germany", \Panama Strait", \Brussels", but not unnamed locations like \the
-bar" or \the farm".
+Location (LOC): e.g. Germany", Panama Strait", Brussels", but not unnamed locations like \the
+bar" or the farm".
 
-Miscellaneous (MISC): e.g. \Japanese", \USD", \1,000", \Englishmen".
+Miscellaneous (MISC): e.g. Japanese", USD", 1,000", Englishmen".
 
 
 Requirements : - 
+
 tensorflow>=0.12
 
 matplotlib
@@ -32,7 +33,8 @@ There are three parts to this assignment
 
 2. Recurrent neural nets for NER **Implemented**
 
-3. Grooving with GRUs
+
+3. Grooving with GRUs **Implemented**
 
 
 ![Questions](https://github.com/imraviagrawal/Named_entity_recognition/blob/master/assignment3.pdf)
