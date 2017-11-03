@@ -16,6 +16,11 @@ bar" or the farm".
 
 Miscellaneous (MISC): e.g. Japanese", USD", 1,000", Englishmen".
 
+We formulate this as a 5-class classification problem, using the four above classes and a null-class (O) for
+words that do not represent a named entity (most words fall into this category). For an entity that spans
+multiple words (\Department of Defense"), each word is separately tagged, and every contiguous sequence
+of non-null tags is considered to be an entity.
+
 
 Requirements : - 
 
